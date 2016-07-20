@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Event Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Current Event</item>
+        <item >Create Event</item>
+        <item >Event Requests</item>
+        <item >Accepted Requests</item>
+        <item >Albums</item>
+        <item >Log Out</item>
+    </string-array>
+
+
+    <!-- Nav Drawer List Item Icons -->
+
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_createevent</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="pending_req">Pending Requests</string>
+    <string name="accepted_req">Accepted Requests</string>
+
+    <!-- Create Event Strings -->
+    <string name="action_create_event">Create Event</string>
+    <string name="prompt_event_name">Enter event name</string>
+    <string name="prompt_email_event_location">Enter location</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="pick_time">Event Start Time</string>
+    <string name="title_activity_view_events">ViewEventsActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="close">Close</string>
+
+    <string name="imageView_description">Image Thumbnail</string>
+    <string name="no_network_connection_toast">No network connection found</string>
+    <string name="clear_cache_menu">Clear Caches</string>
+    <string name="clear_cache_complete_toast">Caches have been cleared</string>
+
+
+    <!-- Google Login -->
+    <string name="signed_out">Signed out</string>
+    <string name="loading">Loading…</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!-- TODO(user): replace with your real server client ID -->
+    <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
+         from https://console.developers.google.com/ -->
+    <string name="server_client_id">30792214840-4nmv5fghdqnm6kd0k5jtfo7fsmnh7045.apps.googleusercontent.com</string>
+
+</resources>

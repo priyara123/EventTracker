@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#303030">
+
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/dialogButtonOK"
+        android:text="@string/close"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#ffffff"
+        android:background="#e02222"
+        android:textSize="18dp" />
+
+</RelativeLayout>

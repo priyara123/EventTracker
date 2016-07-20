@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/albumsGridView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:numColumns="3"
+        android:transitionGroup="true"
+        android:fastScrollAlwaysVisible="false"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center" />
